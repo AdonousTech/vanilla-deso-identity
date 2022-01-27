@@ -171,7 +171,7 @@ async function submitSignedTransaction(signedTransactionHex) {
 	
 	//test
 	const data1 = await httpClient.post(
-		"https://node.bitcloutapps.ninja/api/v0/submit-transaction",
+		"[YOUR NODE URL HERE]",
 		txToSubmit,
 		{
 		  onerror: (e) => {
