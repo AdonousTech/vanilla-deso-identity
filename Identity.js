@@ -11,10 +11,6 @@ let runtimeInstance;
 
 const isDebug = true;
 
-export function initializeWithC3Runtime(runtime) {
-	runtimeInstance = runtime;
-}
-
 export function launchIdentityWindow(path) {
 	
 	// center the window
