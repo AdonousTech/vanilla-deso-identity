@@ -190,8 +190,7 @@ function handleInitialize(event) {
 		
 		/**
 		* Initialize the IFrame which is used for communication between window and Identity
-		* NOTE - Selector should always be identityIframe (ID) in Construct project
-		* NOTE - URL property of IFrame in Construct should always be https://identity.deso.org
+        * You'll need to reference this IFRAME from the DOM
 		*/
 		iframe = identityIframe;
 		console.log('[INFO] [IFrame] [Ref] :: ', iframe);
